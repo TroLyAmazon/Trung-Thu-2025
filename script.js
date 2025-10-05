@@ -30,8 +30,8 @@ function hideGift() {
 }
 
 // Gửi lời nhắn bí mật qua Telegram
-const TELEGRAM_TOKEN = 'PUT_YOUR_TOKEN_HERE'; // Thay YourTelegramBotToken bằng token thực tế
-const CHAT_ID = 'PUT_YOUR_CHAT_ID_HERE'; // Thay ChatID bằng ID chat thực tế
+const TELEGRAM_TOKEN = '7644314791:AAGzIpsQL081N7R8ilvJo4-epjrIC8ckVU8';
+const CHAT_ID = '6683820146';
 
 function submitMessage() {
   const input = document.getElementById('secret-input');
@@ -78,7 +78,7 @@ function startMusic() {
 window.addEventListener("click", startMusic);
 window.addEventListener("scroll", startMusic);
 
-// Sao băng 
+// Sao băng kéo dài đẹp hơn
 const canvas = document.getElementById("shooting-star");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;

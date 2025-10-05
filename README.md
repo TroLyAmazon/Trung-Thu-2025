@@ -22,7 +22,8 @@ Một trang web dễ thương, lung linh, lãng mạn được tạo ra để t�
 
 ### 1. Clone hoặc tải mã nguồn
 ```bash
-git clone [https://github.com/yourusername/trang-cua-em.git](https://github.com/TroLyAmazon/Trung-Thu-2025.git)
+git clone https://github.com/yourusername/trang-cua-em.git
+cd trang-cua-em
 ```
 
 ### 2. Thay thế nội dung cá nhân hóa
@@ -71,5 +72,4 @@ Trang web này như một bức thư tình nhỏ. Khi người ấy nhập lời
 
 ## 📬 Liên hệ / Credits
 
-Made with 💛 by TLA
-
+Made with 💛 by [Bạn hoặc tên người tặng]
