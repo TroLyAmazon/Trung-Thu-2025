@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trăng của Em</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="moon"></div>
+  <div class="lantern-container"></div>
+  <div class="marquee">🌕 Trung Thu này... Chú Cuội chỉ muốn một điều: Được ở bên chị Hằng mãi mãi 💖</div>
+
+  <header>
+    <h1 class="glow-text">Trăng của Em</h1>
+    <p>Gửi tặng chị Hằng của anh – Trung Thu 2025</p>
+  </header>
+
+  <div class="image-section">
+    <img src="my_lovejpg.jpg" alt="My Love" />
+  </div>
+
+  <div class="love-letter">
+    <p>Em là ánh trăng duy nhất trong cuộc đời anh – dịu dàng, ấm áp và luôn ở đó, dẫu có khi anh là Chú Cuội lạc giữa trần gian.</p>
+    <p>Trung thu năm nay, anh không có đèn lồng rực rỡ, cũng chẳng có bánh nướng ngọt ngào... Anh chỉ có tình cảm chân thành – gói gọn trong trang web nhỏ này, để kể em nghe rằng: “Anh yêu em – hơn cả ánh trăng rằm”.</p>
+    <p>Trung Thu 2025 – Chú Cuội không lạc lõng nữa, vì có chị Hằng luôn bên cạnh 💛</p>
+  </div>
+
+  <div class="chat-bubble left">Cuội ơi, em có đó không? 🐰</div>
+  <div class="chat-bubble right">Em luôn ở đây, bên ánh trăng và anh 💛</div>
+
+  <div class="gift-button-container">
+    <button onclick="showGift()">🎁 Mở Quà Trung Thu</button>
+  </div>
+
+  <div id="gift-popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="hideGift()">&times;</span>
+      <h2>🎁 Bất ngờ Trung Thu 🎑</h2>
+      <p>Không bánh nướng, không trà... chỉ có anh nướng tim chờ em 😘</p>
+      <input type="text" id="secret-input" placeholder="Gửi lời nhắn tới chú Cuội..." style="margin-top:10px; padding:6px; width:90%;" />
+      <button onclick="submitMessage()" style="margin-top:8px;">Gửi 💌</button>
+      <p id="secret-message" style="margin-top:12px; font-style:italic;"></p>
+    </div>
+  </div>
+
+  <audio id="bg-music" src="music_bg.mp3" preload="auto" loop></audio>
+  <canvas id="shooting-star"></canvas>
+  <canvas id="fireworks"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
